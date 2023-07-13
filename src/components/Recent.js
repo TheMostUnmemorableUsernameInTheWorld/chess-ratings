@@ -29,7 +29,7 @@ function Recent() {
   useEffect(() => {
     fetchRatings()
   });
-
+  
   function vCycle(vState) {
     if (vState === 'default') {
         setVState('dsc');
