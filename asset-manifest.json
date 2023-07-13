@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chess-ratings/static/css/main.64c4e69e.css",
+    "main.js": "/chess-ratings/static/js/main.93247bfd.js",
+    "static/js/787.fb7f6c62.chunk.js": "/chess-ratings/static/js/787.fb7f6c62.chunk.js",
+    "index.html": "/chess-ratings/index.html",
+    "main.64c4e69e.css.map": "/chess-ratings/static/css/main.64c4e69e.css.map",
+    "main.93247bfd.js.map": "/chess-ratings/static/js/main.93247bfd.js.map",
+    "787.fb7f6c62.chunk.js.map": "/chess-ratings/static/js/787.fb7f6c62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64c4e69e.css",
+    "static/js/main.93247bfd.js"
+  ]
+}
