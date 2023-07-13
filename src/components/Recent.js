@@ -1,5 +1,5 @@
 import './Recent.css';
-import { React, useState, useEffect } from 'react';
+import { React, useState, useEffect, useMemo } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSort, faSortUp, faSortDown } from '@fortawesome/free-solid-svg-icons'
@@ -28,8 +28,8 @@ function Recent() {
 
   useEffect(() => {
     fetchRatings()
-  });
-  
+  }, []);
+
   function vCycle(vState) {
     if (vState === 'default') {
         setVState('dsc');
