@@ -19,19 +19,19 @@ h2 {
 table {
     border-collapse: collapse;
     margin: 10px 0;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-family: 'Montserrat';
     min-width: 500px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 table thead tr {
-    background-color: #0D98BA;
-    color: #ffffff;
+    background-color: #1f1f1f;
+    color: #cccccc;
     text-align: left;
     font-weight: bold;
+    border-bottom: 2px solid #323232;
 }
 
 th,
@@ -44,16 +44,18 @@ th {
     cursor: pointer;
 }
 
+th:hover {
+    color: #ffffff;
+}
+
 table tbody tr {
-    border-bottom: 1px solid #dedede;
+    background: #1f1f1f;
+    color: #ffffff;
+    border-bottom: 1px solid #323232;
 }
 
-table tbody tr:nth-of-type(even) {
-    background: #f3f3f3;
-}
-
-table tbody tr:last-of-type {
-    border-bottom: 2px solid #0D98BA;
+td:not(:last-child) {
+    border-right: 1px solid #323232;
 }
 
 th span {
