@@ -3,7 +3,7 @@ import { React, useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSort, faSortUp, faSortDown } from '@fortawesome/free-solid-svg-icons'
 
-import * as fetch from 'node-fetch';
+// import * as fetch from 'node-fetch';
 
 function Recent() {
   const [ratings, setRatings] = useState({});
